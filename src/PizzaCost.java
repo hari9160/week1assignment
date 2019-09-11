@@ -20,6 +20,7 @@ public class PizzaCost {
        //State total cost of the pizza 
        System.out.format("The cost of the pizza is: $%.2f\n", cost); 
        System.out.println("Thank you for eating at dominoes"); 
+       System.out.println("This is work at school again");
     }
     
 }
