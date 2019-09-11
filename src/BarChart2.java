@@ -13,7 +13,11 @@ public class BarChart2 {
             b[x] = new Bar(); //makes a new actual BAR at location [x] in array 
             c.print("Enter Bar " + (x + 1) + " height >"); 
             //assign height, xloc and color 
-            b[x].height 
+            b[x].height = c.readInt(); 
+            b[x].xloc = 50 + (100 * x); 
+            b[x].col = col[x]; 
+            //draw
+            b[x].draw(c); 
         }
        
     }
