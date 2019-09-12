@@ -1,5 +1,6 @@
 import hsa.Console;
 import java.awt.Color; 
+import TurtleGraphics.*; 
 
 public class PenBar {
     int xloc, yloc, height; 
