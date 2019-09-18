@@ -1,15 +1,23 @@
-import hsa.Console;
 import java.awt.Color; 
 import TurtleGraphics.*; 
 
-public class PenBar {
-    int xloc, yloc, height; 
-    Color col; 
+    public class PenBar {
+        Pen p = new StandardPen(); 
+        int x, y, width; 
+        Color c; 
     
-    public void draw (Console c){ 
-        c.setColor(col); 
-        yloc = 400-height; 
-        c.fillRect(xloc, yloc, 50, height); 
-        c.drawString("Value: " + height, xloc, yloc-10); 
+    public void draw (){ 
+        p.up(); 
+        p.move(x, y); 
+        p.down();
+        p.setColor(c); 
+        p.setWidth(50); 
+        p.down(); 
+    }
+    
+    public void drawLabel(){ 
+        
+                
+
     }
 }
