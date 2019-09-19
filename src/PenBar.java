@@ -2,22 +2,23 @@ import java.awt.Color;
 import TurtleGraphics.*; 
 
     public class PenBar {
-        Pen p = new StandardPen(); 
         int x, y, width; 
         Color c; 
     
-    public void draw (){ 
+    public void draw (Pen p){ 
         p.up(); 
         p.move(x, y); 
-        p.down();
+        p.setDirection(0); 
         p.setColor(c); 
         p.setWidth(50); 
         p.down(); 
     }
     
-    public void drawLabel(){ 
-        
-                
+    public void drawLabel(Pen p){ 
+        p.setColor(c); 
+        p.up(); 
+        p.move(x + w + 40 + y +)
+        p.drawString("" + width);
 
     }
 }
