@@ -17,7 +17,7 @@ import TurtleGraphics.*;
     public void drawLabel(Pen p){ 
         p.setColor(c); 
         p.up(); 
-        p.move(x + w + 40 + y +)
+        p.move(x + w + 40 + y ); 
         p.drawString("" + width);
 
     }
