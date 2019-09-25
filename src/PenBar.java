@@ -12,13 +12,11 @@ import TurtleGraphics.*;
         p.setColor(c); 
         p.setWidth(50); 
         p.down(); 
-    }
-    
-    public void drawLabel(Pen p){ 
-        p.setColor(c); 
+        p.move(width, y); 
+        //label
         p.up(); 
-        p.move(x + w + 40 + y ); 
-        p.drawString("" + width);
+        p.move(width + 40, y); 
+        p.drawString("Value: " + width);
 
     }
 }

@@ -10,11 +10,11 @@ public class PizzaCost {
        //Size of pizza
        System.out.print("Enter size for pizza: ");
        size = s.nextInt(); 
-        System.out.format("The size of your pizza is %din\n", size);
+       System.out.format("The size of your pizza is %din\n", size);
        //Toppings wanted 
        System.out.print("Enter the amount of toppings for the pizza: "); 
        toppings = s.nextInt(); 
-        System.out.format("Here is the amount of toppings on your pizza %d\n", toppings); 
+       System.out.format("Here is the amount of toppings on your pizza %d\n", toppings); 
        //Calculate Pizza cost 
        cost = size * 0.5 + toppings * 0.75 + base; 
        //State total cost of the pizza 
